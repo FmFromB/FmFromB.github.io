@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  	<title>Математический стафф</title>
+  	<link rel="stylesheet" type="text/css" href="css\Style.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="text"> Вычисление площади круга </div>
+		<img src="img\circle.png">
+  		<form name="form">
+  			<div class="input"><br>
+    			<input type="text" name="rad" size="10" placeholder="Введите радиус"><br>
+    			<input class="button" type="button" name="button" value="Вычислить площадь" onClick="circleArea();"><br><br>
+    			<input type="text" name="res" size="10" placeholder="Результат">
+    		</div>
+  		</form>
+  	</div><br><br>
+  	<div class="container">
+  		<div class="text"> Нахождение всех простых чисел в диапозоне </div>
+  		<form name="area">
+  			<div class="input">
+  				<input type="text" name="M" size="10" placeholder="Первое число"><br><br>
+  				<input type="text" name="N" size="10" placeholder="Последнее число"><br><br>
+  				<input class="button" type="button" name="button" value="Вычислить" onClick="numbers();">
+  			</div>
+  		</form>
+  	</div>
+  	<div class="container">
+  		<div class="text"> Нахождение среденего на сторках матрицы </div>
+  		<form name="matrix">
+  			<div class="input">
+				<input class="button" type="button" name="button" value="Вычислить" onClick="getCountsAverages(myMatrix), CreateAnArray(8, 6)"><br><br>
+			</div>
+		</form>
+	</div>
+
+
+  	
+  	
+	
+ 	<script type="text/javascript" src="js\Вычисления.js"></script>
+ 	<script type="text/javascript" src="js\Вычисления 2.js"></script>
+ 	<script type="text/javascript" src="js\Матрицы.js"></script>
+</body>
+</html>
